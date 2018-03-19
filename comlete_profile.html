@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<script type="text/javascript">
+	</script>
+
+	<link rel="stylesheet" href="complete.css">
+
+</head>
+
+<body>
+
+
+ <form id="FORM" method="post" >
+       <div id="login_box">
+         	   <h2 >Complete your profile!</h2>
+         	  
+
+                <p>Name</p>
+         	   	<input type="text" name="name">
+         	   	
+         	   	<p >Gender</p>
+         	   	<div id="radio">
+
+         	   	   <input type="radio" name="gender" value="male" style="display:inline;" > Male
+                   <input type="radio" name="gender" value="female" style="display:inline;" > Female<br>
+                    <input type="radio" name="gender" value="other" style="display:inline;" > Other  
+                 </div>
+                 <p>Phone Number</p>
+           <input type="text" name="phone">
+           <p>Profession</p>
+           <input type="text" name="profession">
+               
+
+         	   
+         
+         
+         	
+
+         	  
+
+                <p>Branch</p>
+         	   	<input type="text" name="branch">
+         	   	
+         	   	<p>Interests</p>
+         	   	<input type="text" name="int">
+               <form action="upload.php" method="post" enctype="multipart/form-data"><p>Upload profile pic</p>
+               	<input type="file" name="file1" id="choose">
+               <p>Upload cover photo</p>	<input type="file" name="file2 id="choose">
+           </form>
+                
+         	    <button type="submit" value="submit" >Sign Up</button>
+         </div>
+</form>
+	</body>
+</html>

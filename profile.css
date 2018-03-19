@@ -1,0 +1,166 @@
+body
+{
+
+margin:0;
+padding:0;
+height:200vh;
+width:100%;
+background-color:green;
+color:white;
+}
+
+#cover_photo
+{
+    height:80vh;
+    width:100%;
+    background-color:tomato;
+    position:absolute;
+    left:0;
+    top:0;
+    border:black solid 3px;
+
+
+
+}
+
+
+#profile_photo
+
+
+{   
+
+	position:absolute;
+   
+    height:40vh;
+    width:20%;
+    left:40vw;
+    top:50vh;
+    background-color:yellow;
+    border:black solid 3px;
+
+
+
+}
+
+button
+{
+
+  width:32vw;
+  height:10vh;
+  background-color:tomato;
+  font-family:sans-serif;
+  border:black solid 3px;
+   font-size:5vh;
+
+}
+
+
+#button_collection
+{
+
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	position:absolute;
+	top:90vh;
+	left:1.7vw;
+	border:black solid 3px;
+
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#profile
+
+
+{
+
+	font-size:2vh;
+}
+
+#question
+
+{
+
+
+	position:absolute;
+	top:110vh;
+	left:1.7vw;
+	width:28%;
+	height:85vh;
+	background-color:tomato;
+	display:flex;
+	align-items:space-between;
+	justify-content:center;
+	flex-flow:wrap;
+	padding-top:2px;
+
+}
+
+#answer
+{
+
+
+	position:absolute;
+	top:110vh;
+	left:35vw;
+	width:63%;
+	height:85vh;
+	background-color:tomato;
+	display:flex;
+	align-items:space-between;
+	justify-content:center;
+	flex-flow:wrap;
+	padding-top:2px;
+}
+
+
+#q
+{
+
+	height:10vh;
+	width:25vw;
+	border:solid 2px black;
+	font-size:5vh;
+	text-align:center;
+	font-family:sans-serif;
+
+
+}
+
+
+#a
+{
+
+	height:10vh;
+	width:60vw;
+	border:solid 2px black;
+	font-size:5vh;
+	text-align:center;
+	font-family:sans-serif;
+
+
+}
+
+img
+{
+
+	height:100%;
+	width:100%;
+	
+}
+
+
+#change
+{
+
+	position:absolute;
+	top:0%;
+	left:35%;
+	background-color:red;
+
+}
